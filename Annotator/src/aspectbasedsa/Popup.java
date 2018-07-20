@@ -21,6 +21,7 @@ import javax.swing.UIManager;
  *
  * @author My Pc
  */
+//popup class
 public class Popup extends javax.swing.JFrame {
     static String filename=null;
     /**
