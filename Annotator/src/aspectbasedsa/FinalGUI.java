@@ -42,17 +42,16 @@ public class FinalGUI extends javax.swing.JFrame {
 
     
     DefaultTableModel model = new DefaultTableModel();
-   // JTablejTable1 = new JTable(model);
     int aspect_term_row_status=1;
     int aspect_category_row_status=1;
-       int at=1;
-     int ac=1;
-     static int count=0;
-     static String str[]=new String[600000];
-     String at_pol;
-     static int line_status=-1;
-     int at_status=1;
-     int ac_status=1;
+    int at=1;
+    int ac=1;
+    static int count=0;
+    static String str[]=new String[600000];
+    String at_pol;
+    static int line_status=-1;
+    int at_status=1;
+    int ac_status=1;
     ArrayList<String> _at1=new ArrayList<String>();;
     ArrayList<String> _at2=new ArrayList<String>();
     ArrayList<String> _at3=new ArrayList<String>();
@@ -62,7 +61,7 @@ public class FinalGUI extends javax.swing.JFrame {
     static int no_of_column=3;
     
     
-     DefaultTableModel models=new DefaultTableModel() ;
+    DefaultTableModel models=new DefaultTableModel() ;
     static String list_of_polarity[]=new String[5];
     static String list_of_category[]=new String[110];
     int len; 
